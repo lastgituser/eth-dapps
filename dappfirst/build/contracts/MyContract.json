@@ -1,0 +1,65 @@
+{
+  "contract_name": "MyContract",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "getBalance",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "getOwner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "deposit",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b60018054600160a060020a03191633600160a060020a0316179055600080555b5b610169806100406000396000f300606060405263ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166312065fe08114610053578063893d20e814610078578063b6b55f25146100b4575b600080fd5b341561005e57600080fd5b6100666100dc565b60405190815260200160405180910390f35b341561008357600080fd5b61008b6100e3565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b34156100bf57600080fd5b610066600435610100565b60405190815260200160405180910390f35b6000545b90565b60015473ffffffffffffffffffffffffffffffffffffffff165b90565b6001546000903373ffffffffffffffffffffffffffffffffffffffff90811691161461012b57600080fd5b50600080548201908190555b5b9190505600a165627a7a72305820f1a6392451c099bd2d9c6516450d6b1878d9e39d539037a1b8955d3fae79abce0029",
+  "networks": {
+    "1510953932060": {
+      "events": {},
+      "links": {},
+      "address": "0xb4a475b23f0577f6aa1d6ccf2c9ac15e4dd8f6fa",
+      "updated_at": 1511831953480
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1511831953480
+}
