@@ -1,13 +1,13 @@
 pragma solidity ^0.4.0;
 
-contract HelloWorld {
+contract Hello {
     string private _name;
 
     constructor (string name) public {
         _name = name;
     }
 
-    function setName (string name) public view returns (string) {
+    function setName (string name) public {
         _name = name;
     }
 
